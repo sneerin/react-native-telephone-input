@@ -83,7 +83,6 @@ export default class TelephoneInput extends Component {
   render() {
     return (
       <View style={[{ flex: 1, flexDirection: 'row' }, this.props.wrapperStyle]}>
-        <Text style={[{ flex: 0.1 }, this.props.countryStyle]} >{this.state.iso_code}</Text>
         <TextInput
           style={[{ flex: 0.9, }, this.props.textStyle]}
           value={this.state.formattedNumber}
